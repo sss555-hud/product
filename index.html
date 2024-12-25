@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top container">
+            <img src="svg/logo.svg" alt="">
+            <div class="top-image">
+                <img  id="cart-icon" src="./svg/cart.svg" alt="">
+                <!-- <div class="count">0</div> -->
+                <div id="cart-popup" class="hidden">
+                    <div class="cart-header">
+                        <h4>Cart</h4>
+                        <button id="close-cart">&times;</button>
+                    </div>
+                    <ul id="cart-items">
+                    </ul>
+                    <button id="clear-cart">Clear</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <hr> -->
+    
+    <div class="container" id="product-container"></div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
